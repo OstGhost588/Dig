@@ -23,7 +23,7 @@ def true_var_1():
     msg = QMessageBox()
     msg.setText("Правильно")
     msg.exec()
-ans1.clicked.connect(true_var_1())
+ans1.clicked.connect(true_var_1)
 window.setLayout(main_line)
 window.show()
 app.exec()
